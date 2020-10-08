@@ -1,0 +1,28 @@
+:root{
+    font-size: 60%;
+
+    --color-background: #3355ff;
+    --color-primary: #ffcd0b;
+    --color-button: #916BEA;
+    --color-texto: #ffffff;
+    --color-link: #000000;
+    --color-shadow: #133afd;
+}
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+html,body, #root{
+    font-family: lato,sans-serif;
+}
+
+body{
+    background: var(--color-background);
+}
+
+
+
+
