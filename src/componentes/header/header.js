@@ -2,7 +2,11 @@ import React from 'react';
 import {Headertop, Logo, Main, Textoseguir, Link} from '../../style';
 import logo from '../../img/logo-insta2.png';
 
-function Header(){
+export default function Header(){
+
+    let linkPrf =  "";
+    let Instagram = "";
+    
     return(
         <Main>
             <Headertop >
@@ -10,12 +14,9 @@ function Header(){
                 <img src={logo} />
                 </Logo>
                 <Textoseguir>
-                    Siga o nosso instagram: <Link target="t_blank" href={'https://www.instagram.com/concursoprf2020/'} >@concursoprf2020</Link>
+                    Siga o nosso instagram: <Link target="t_blank" href={linkPrf} >{Instagram}</Link>
                 </Textoseguir>
             </Headertop >
         </Main>
     )
 }
-
-
-export default Header;
