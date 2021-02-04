@@ -1,12 +1,12 @@
 import React from 'react';
 import {Headertop, Logo, Main, Textoseguir, Link} from '../../style';
-import logo from '../../img/logo-insta2.png';
 
 export default function Header(){
 
-    let linkPrf =  "";
-    let Instagram = "";
-    
+    let linkPrf ="";
+    let Instagram ="";
+    let logo = "";
+
     return(
         <Main>
             <Headertop >
